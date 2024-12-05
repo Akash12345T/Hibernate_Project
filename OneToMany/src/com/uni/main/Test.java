@@ -40,6 +40,6 @@ public class Test {
         
         session.beginTransaction().commit();
         
-        System.out.println("Hello");
+        System.out.println("Hello World");
     }
 }
