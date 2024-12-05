@@ -39,5 +39,7 @@ public class Test {
         session.persist(dep);
         
         session.beginTransaction().commit();
+        
+        System.out.println("Hello");
     }
 }
